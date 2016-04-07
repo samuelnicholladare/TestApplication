@@ -11,7 +11,7 @@ namespace TestGithubApplication
         static void Main(string[] args)
         {
             Console.WriteLine("test");//test branch
-
+            throw new Exception("Am deed!");
         }
     }
 }
